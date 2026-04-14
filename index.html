@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="ms"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Sistem Qurban 2026</title><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet"><style>:root{--ng:#00ff88;--ngd:rgba(0,255,136,.2);--db:#050b0a;--pb:rgba(6,20,15,.65);--bc:rgba(0,255,136,.3);--tm:#e2f1ec;--tm2:#8ab4a5;--er:#ff3366}body{font-family:'Rajdhani',sans-serif;background:radial-gradient(circle at 50% 0,#062a1f,var(--db)) fixed;color:var(--tm);margin:0;padding:30px 15px}.c{max-width:850px;margin:0 auto;background:var(--pb);backdrop-filter:blur(20px);border:1px solid var(--bc);padding:40px;border-radius:12px;box-shadow:0 0 30px rgba(0,255,136,.05);position:relative;overflow:hidden}.c::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--ng),transparent);animation:sc 4s linear infinite;opacity:.5}@keyframes sc{to{top:100%}}.ht{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;border-bottom:1px solid var(--bc);padding-bottom:15px}.ht div{flex:1}.ht-txt{text-align:center;flex:3!important}.ht-txt h1{color:var(--ng);margin:0 0 5px;font-size:32px;text-shadow:0 0 10px var(--ngd)}.ht-txt p{margin:0;font-size:18px}.l-img{width:100px;height:100px;object-fit:contain;filter:drop-shadow(0 0 20px var(--ng))}.st{background:linear-gradient(90deg,var(--ngd),transparent);color:var(--ng);padding:10px 20px;border-left:4px solid var(--ng);margin:20px 0 20px;font-size:18px;text-transform:uppercase;font-weight:700}.fg{margin-bottom:20px}label{display:block;margin-bottom:8px;color:var(--tm2);font-weight:600}input,select{width:100%;padding:14px;background:rgba(0,0,0,.4);border:1px solid var(--bc);border-radius:6px;color:var(--ng);font-family:inherit;font-size:16px;box-sizing:border-box}input[type="text"],input[type="tel"]{text-transform:uppercase}input:focus,select:focus{outline:none;border-color:var(--ng);box-shadow:0 0 15px rgba(0,255,136,.2)}.rg{background:rgba(0,0,0,.3);padding:15px;border-radius:6px;border:1px solid rgba(0,255,136,.15)}.ro label{display:flex;align-items:center;margin-bottom:12px;cursor:pointer;font-weight:500}.ro input{width:18px;height:18px;margin-right:12px}.ab{background:rgba(0,255,136,.02);border:1px dashed var(--ng);padding:20px;text-align:center;color:var(--ng);margin-bottom:20px;font-style:italic}.bi{display:none;background:rgba(0,0,0,.5);border:1px solid var(--ng);padding:20px;margin-top:15px}table{width:100%;border-collapse:collapse;margin-bottom:10px}th,td{border:1px solid rgba(0,255,136,.15);padding:12px}th{background:rgba(0,255,136,.1);color:var(--ng)}.nc{text-align:center;color:var(--tm2);width:40px}.pi{border:none!important;background:0 0!important;padding:8px!important}.pn{color:var(--er);display:flex;justify-content:space-between;font-weight:600;font-size:14px}#bw{display:none;margin-top:15px}.fs{text-align:center;margin-top:40px;padding-top:20px;border-top:1px dashed var(--ngd);font-size:14px;color:var(--tm2)}.dn{color:var(--ng);font-weight:700;letter-spacing:2px;margin-left:5px}.step{display:none;animation:fi .4s}.act{display:block}@keyframes fi{from{opacity:0;transform:translateX(15px)}to{opacity:1;transform:translateX(0)}}.nb{display:flex;gap:10px;margin-top:30px}.b{flex:1;padding:15px;border-radius:6px;font:inherit;font-weight:700;font-size:16px;cursor:pointer;text-transform:uppercase;border:none;transition:.3s}.b-n{background:var(--ng);color:var(--db)}.b-n:hover:not(:disabled){box-shadow:0 0 15px var(--ng)}.b-p{background:transparent;color:var(--tm2);border:1px solid var(--tm2)}.b-p:hover{background:rgba(255,255,255,.05)}.b:disabled{opacity:.5;cursor:not-allowed}.pg{display:flex;gap:8px;margin-bottom:25px}.pd{height:5px;flex:1;background:rgba(0,255,136,.1);border-radius:3px;transition:.4s}.act-p{background:var(--ng);box-shadow:0 0 8px var(--ng)}.cd-c{background:rgba(255,51,102,0.1);border:1px solid var(--er);padding:12px;border-radius:8px;text-align:center;margin-bottom:20px;display:flex;flex-direction:column;gap:5px}.cd-t{color:var(--er);font-weight:700;font-size:14px;letter-spacing:1px;animation:bl 1.5s infinite}@keyframes bl{50%{opacity:0.3}}#cd-v{font-size:22px;color:var(--tm);font-weight:700;letter-spacing:2px}#msg-tutup{display:none;color:var(--er);font-size:24px;font-weight:900;text-align:center;padding:40px 20px;border:2px solid var(--er);border-radius:8px;margin-top:20px;background:rgba(255,51,102,0.1)}.cp-b{background:var(--ng);color:var(--db);padding:8px 14px;border-radius:6px;font-size:14px;cursor:pointer;font-weight:700;transition:.3s;border:none;white-space:nowrap}.cp-b:hover{box-shadow:0 0 10px rgba(0,255,136,.5)}.ak-bx{display:flex;align-items:center;justify-content:space-between;background:rgba(0,0,0,.4);border:1px dashed var(--ng);padding:15px;border-radius:8px;margin:15px 0}.wa-f{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:12px 18px;border-radius:50px;text-decoration:none;font-weight:700;box-shadow:0 4px 15px rgba(37,211,102,.4);z-index:99;display:flex;align-items:center;font-size:14px;transition:.3s}.wa-f:hover{transform:scale(1.05)}
+/* GAYA LIVE COUNTER */
+.lc-bx{background:rgba(0,0,0,0.4);border:1px solid var(--bc);padding:15px;border-radius:8px;margin-bottom:20px;text-align:center}.lc-tt{color:var(--tm2);font-weight:700;font-size:14px;margin-bottom:15px;letter-spacing:1px}.lc-st{display:flex;justify-content:space-around;margin-bottom:15px}.lc-st div{display:flex;flex-direction:column;gap:5px}.lc-st span{font-size:12px;color:var(--tm2);text-transform:uppercase}.lc-st b{font-size:28px;line-height:1}.lc-bar-bg{background:rgba(255,255,255,0.1);height:6px;border-radius:3px;overflow:hidden;margin-bottom:10px}.lc-bar-fill{background:var(--ng);height:100%;transition:width 1s ease-out;box-shadow:0 0 10px var(--ng)}.lc-ds{font-size:12px;color:var(--tm2);font-style:italic}
+@media(max-width:600px){.ht{flex-direction:column-reverse;gap:15px}.ht div:first-child{display:none}.pn{flex-direction:column;gap:5px}.wa-f{bottom:15px;right:15px}.ak-bx{flex-direction:column;align-items:flex-start;gap:12px}.cp-b{width:100%;text-align:center}}
+/* INVOIS STYLE */
+#inv{display:none;color:#000;background:#fff;padding:40px;font-family:Arial,sans-serif;max-width:800px;margin:0 auto;font-size:18px}#inv h2{text-align:center;margin:0;font-size:26px}#inv table{width:100%;border-collapse:collapse;margin:30px 0}#inv th,#inv td{border:1px solid #000;padding:12px;font-size:18px}#inv .tr{text-align:center;font-size:1.5em;font-weight:700;margin-top:30px;border:2px dashed #000;padding:15px;background:#f9f9f9}#inv .sts{color:#dc3545;font-size:22px;margin-top:10px;font-weight:900}@media print{@page{margin:15mm}body,html{background:#fff!important;overflow:visible!important;margin:0;padding:0}.c,.swal2-container,.wa-f{display:none!important}#inv{display:block!important;position:relative;width:100%;max-width:100%;padding:15px!important;box-sizing:border-box;margin:0}}</style></head><body>
+
+<div id="inv"></div>
+
+<a href="https://wa.me/60133787248?text=Assalamualaikum%20admin,%20saya%20perlukan%20bantuan%20mengenai%20pendaftaran%20Qurban%202026." class="wa-f" target="_blank">💬 BANTUAN</a>
+
+<div class="c"><div class="ht"><div></div><div class="ht-txt"><h1>SISTEM QURBANPRO 2026</h1><p>MASJID KAMPUNG SUNGAI LANG BARU</p></div><div style="display:flex;justify-content:flex-end;"><img src="https://arleta.site/interactivelink/1610/LOGO-MKSLB.png" class="l-img" alt="Logo Masjid"></div></div>
+
+<div class="cd-c"><div class="cd-t">⚠️ TARIKH TUTUP PENYERTAAN: 24 MEI 2026</div><div id="cd-v">-- : -- : -- : --</div></div>
+
+<div class="lc-bx">
+    <div class="lc-tt">STATUS KUOTA QURBAN (SASARAN 10 EKOR)</div>
+    <div class="lc-st">
+        <div><span>BAHAGIAN TERKUMPUL</span><b id="lc-isi" style="color:var(--ng)">0</b></div>
+        <div><span>BAKI KEKOSONGAN</span><b id="lc-baki" style="color:var(--er)">70</b></div>
+    </div>
+    <div class="lc-bar-bg"><div class="lc-bar-fill" id="lc-bar" style="width:0%"></div></div>
+    <div class="lc-ds">*(1 Ekor Lembu = 7 Bahagian)</div>
+</div>
+
+<div class="pg"><div class="pd act-p"></div><div class="pd"></div><div class="pd"></div><div class="pd"></div></div>
+<form id="qF">
+<div class="step act"><div class="st">A. MAKLUMAT PEWAKIL</div><div class="fg"><label>NAMA PENUH :</label><input type="text" id="nm" name="nama" required></div><div class="fg"><label>NO. K/P :</label><input type="text" name="ic" placeholder="000000-00-0000" required></div><div class="fg"><label>NO. TELEFON :</label><input type="tel" name="telefon" placeholder="01X-XXXXXXX" required></div><div class="fg"><label>ALAMAT :</label><input type="text" name="alamat" required></div><div class="nb" id="nb-1"><button type="button" class="b b-n" onclick="ns(1)">SETERUSNYA ❯</button></div></div>
+<div class="step"><div class="st">B. LAFAZ AKAD & PESERTA</div><div class="ab">"Adalah dengan ini saya mewakilkan pihak Masjid Kampung Sungai Lang Baru untuk melaksanakan ibadah Qurban..."</div><table><thead><tr><th class="nc">ID</th><th>NAMA PESERTA QURBAN</th></tr></thead><tbody><tr><td class="nc">01</td><td><input type="text" name="peserta_1" class="pi" required></td></tr><tr><td class="nc">02</td><td><input type="text" name="peserta_2" class="pi"></td></tr><tr><td class="nc">03</td><td><input type="text" name="peserta_3" class="pi"></td></tr><tr><td class="nc">04</td><td><input type="text" name="peserta_4" class="pi"></td></tr><tr><td class="nc">05</td><td><input type="text" name="peserta_5" class="pi"></td></tr><tr><td class="nc">06</td><td><input type="text" name="peserta_6" class="pi"></td></tr><tr><td class="nc">07</td><td><input type="text" name="peserta_7" class="pi"></td></tr></tbody></table><div class="pn"><span>*RM 900 / BAHAGIAN</span><span>[ KIRAAN AUTO AKTIF ]</span></div><div class="nb"><button type="button" class="b b-p" onclick="ns(-1)">❮ KEMBALI</button><button type="button" class="b b-n" onclick="ns(1)">SETERUSNYA ❯</button></div></div>
+<div class="step"><div class="st">C. PILIHAN AGIHAN</div><div class="rg"><div class="ro"><label><input type="radio" name="agihan" value="Sedekah Semua" required> MENYERAHKAN KESELURUHAN KEPADA MASJID</label></div><div class="ro"><label><input type="radio" name="agihan" value="Ambil Sebahagian"> MENGHENDAKI SEBAHAGIAN (3KG DAGING/TULANG)</label></div></div><div class="st">D. STATUS PEMBAYARAN</div><div class="fg"><label>JUMLAH (RM) :</label><input type="number" id="jb" name="jumlah_bayar" required readonly style="background:rgba(0,255,136,.1);font-weight:700"></div><div class="fg"><label>MOD PEMBAYARAN :</label><select id="kb" name="kaedah_bayar" required><option value="">-- PILIH MOD --</option><option value="Tunai">TUNAI</option><option value="Online Transfer">ONLINE TRANSFER</option><option value="ToyyibPay">TOYYIBPAY</option></select></div>
+<div id="bi" class="bi" style="display:none;background:rgba(0,0,0,0.5);border:1px solid var(--ng);padding:20px;margin-top:15px;border-radius:8px">
+    <h4 style="color:var(--ng);margin:0 0 10px">[ MAKLUMAT AKAUN ]</h4>
+    <p style="margin:0;color:var(--tm)">Masjid Kampung Sungai Lang Baru<br>Bank Islam Malaysia Berhad</p>
+    <div class="ak-bx">
+        <div>
+            <span style="font-size:14px;color:var(--tm2)">No. Akaun:</span><br>
+            <b style="color:var(--ng);font-size:22px;letter-spacing:1px">1207 4010 0317 14</b>
+        </div>
+        <button type="button" class="cp-b" onclick="cpAkaun()">📋 SALIN NOMBOR</button>
+    </div>
+</div>
+<div class="nb"><button type="button" class="b b-p" onclick="ns(-1)">❮ KEMBALI</button><button type="button" class="b b-n" onclick="ns(1)">SETERUSNYA ❯</button></div></div>
+<div class="step"><div class="st">E. KOMITMEN KEHADIRAN</div><div class="rg"><div class="ro"><label><input type="radio" name="kehadiran" value="Hadir" required> AKAN HADIR</label></div><div class="ro"><label><input type="radio" name="kehadiran" value="Wakil"> WAKIL</label></div></div><div id="bw" class="fg"><label>NAMA WAKIL :</label><input type="text" id="nw" name="nama_wakil"></div><div class="nb"><button type="button" class="b b-p" onclick="ns(-1)">❮ KEMBALI</button><button type="button" id="btn" class="b b-n">HANTAR PENYERTAAN</button></div></div>
+</form>
+<div id="msg-tutup">MAAF, PENYERTAAN QURBAN 2026 TELAH DITUTUP RASMI PADA 24 MEI 2026.</div>
+<div class="fs">DIBANGUNKAN OLEH <span class="dn">NISKALA PAWAKA</span></div></div>
+<script>
+// --- URL API GOOGLE SCRIPT YANG BAHARU ---
+const URL="https://script.google.com/macros/s/AKfycbyEBn1YFM1_IWS3NGeB837RSe_7VpAqwAzxmZBLx2TV-QAp4DVFPiNE463TJg5VFdBF0A/exec",TEL="60133787248",$=i=>document.getElementById(i),$$=s=>document.querySelector(s),$$$=s=>document.querySelectorAll(s),sw=Swal.mixin({background:'#0a1914',color:'#00ff88'});
+let kb=$('kb'),bi=$('bi'),bw=$('bw'),nw=$('nw'),jb=$('jb'),pi=$$$('.pi'),btn=$('btn'),f=$('qF'),cs=0,stp=$$$('.step'),pd=$$$('.pd');
+
+// === FUNGSI LOGIK LIVE COUNTER (Ditarik dari Google Sheets) ===
+let maksLembu = 10;
+let maksBahagian = maksLembu * 7;
+
+fetch(URL)
+  .then(response => response.json())
+  .then(data => {
+    let slotTerisi = data.terkumpul || 0;
+    let bakiSlot = maksBahagian - slotTerisi;
+    // Kemaskini Visual Counter
+    $('lc-isi').innerText = slotTerisi;
+    $('lc-baki').innerText = bakiSlot;
+    $('lc-bar').style.width = (slotTerisi / maksBahagian * 100) + '%';
+  })
+  .catch(error => console.error('Ralat Live Counter:', error));
+// ===================================
+
+window.cpAkaun=()=>{navigator.clipboard.writeText('12074010031714');sw.fire({toast:true,position:'top',icon:'success',title:'No Akaun Disalin!',showConfirmButton:false,timer:2000})};
+
+f.oninput=()=>{let d={};new FormData(f).forEach((v,k)=>d[k]=v);localStorage.setItem('qbDraft',JSON.stringify(d))};
+window.onload=()=>{let d=localStorage.getItem('qbDraft');if(d){d=JSON.parse(d);for(let k in d){let el=document.getElementsByName(k);if(el.length){if(el[0].type=='radio'){el.forEach(r=>{if(r.value==d[k])r.checked=true})}else{el[0].value=d[k]}}}kr();kb.dispatchEvent(new Event('change'));$$$('[name="kehadiran"]').forEach(r=>{if(r.checked)r.dispatchEvent(new Event('change'))})}};
+
+const tTutup = new Date("May 24, 2026 00:00:00").getTime();
+const upCd = setInterval(() => {
+    const skrg = new Date().getTime(), baki = tTutup - skrg;
+    if (baki < 0) {
+        clearInterval(upCd); $('cd-v').innerText = "00 : 00 : 00 : 00";
+        f.style.display = $('nb-1').style.display = 'none'; $('msg-tutup').style.display = 'block'; return;
+    }
+    const d = Math.floor(baki / 864e5), h = Math.floor((baki % 864e5) / 36e5), m = Math.floor((baki % 36e5) / 6e4), s = Math.floor((baki % 6e4) / 1e3);
+    $('cd-v').innerText = `${d}H : ${h}J : ${m}M : ${s}S`;
+}, 1000);
+
+kb.onchange=()=>bi.style.display=kb.value=='Online Transfer'?'block':'none';
+$$$('[name="kehadiran"]').forEach(r=>r.onchange=()=>{bw.style.display=r.value=='Wakil'?'block':'none';nw.required=r.value=='Wakil'});
+const kr=()=>{let c=0;pi.forEach(i=>{if(i.value.trim()!='')c++});jb.value=c>0?c*900:''};
+pi.forEach(i=>['input','keyup','change'].forEach(e=>i.addEventListener(e,kr)));
+const fmt=(e,n,r)=>{let v=e.target.value.replace(/\D/g,'').slice(0,n),m=v.match(r);e.target.value=!m?'':!m[2]?m[1]:m[1]+'-'+m[2]+(m[3]?'-'+m[3]:'')};
+$$('[name="ic"]').oninput=e=>fmt(e,12,/^(\d{0,6})(\d{0,2})(\d{0,4})/);
+$$('[name="telefon"]').oninput=e=>fmt(e,11,/^(\d{0,3})(\d{0,4})(\d{0,4})/);
+window.ns=d=>{let v=1;if(d>0){let inps=stp[cs].querySelectorAll('input,select');for(let i=0;i<inps.length;i++){if(!inps[i].checkValidity()){inps[i].reportValidity();v=0;break}}}if(!v)return;stp[cs].classList.remove('act');cs+=d;stp[cs].classList.add('act');pd.forEach((p,i)=>p.classList.toggle('act-p',i<=cs));window.scrollTo({top:0,behavior:'smooth'})};
+
+const blI=()=>{let pL='';pi.forEach((p,i)=>{if(p.value.trim()!='')pL+=`<tr><td align="center">${i+1}</td><td align="center">${p.value.toUpperCase()}</td></tr>`});$('inv').innerHTML=`<div style="text-align:center"><img src="https://arleta.site/interactivelink/1610/LOGO-MKSLB.png" style="width:120px;margin-bottom:15px"><h2>INVOIS RASMI QURBAN 2026</h2><p style="font-size:20px;margin-top:5px;border-bottom:2px solid #000;padding-bottom:15px;margin-bottom:25px">MASJID KAMPUNG SUNGAI LANG BARU</p></div><div style="text-align:center;line-height:1.8;margin-bottom:30px"><b>Tarikh:</b> ${new Date().toLocaleDateString('ms-MY')}<br><b>Nama Pewakil:</b> ${$('nm').value} (${$$('[name="ic"]').value})<br><b>No. Telefon:</b> ${$$('[name="telefon"]').value}<br><b>Kaedah Pembayaran:</b> ${kb.value}</div><table><tr><th width="50" style="text-align:center; color:#000;">Bil</th><th style="text-align:center; color:#000;">Nama Peserta Qurban</th></tr>${pL}</table><div class="tr">JUMLAH KESELURUHAN: RM ${jb.value}<div class="sts">STATUS BAYARAN : BELUM DIJELASKAN</div></div><p class="ft">Ini adalah invois janaan komputer. Tiada tandatangan diperlukan.</p>`};
+
+btn.onclick=e=>{e.preventDefault();
+if(!f.checkValidity())return f.reportValidity();
+$$$('input[type="text"]').forEach(i=>i.value=i.value.toUpperCase());
+btn.disabled=true;btn.innerText="MENGHANTAR...";sw.fire({title:'TRANSMISI DATA',text:'SILA TUNGGU...',didOpen:()=>Swal.showLoading()});
+
+// MENGHANTAR DATA KE GOOGLE SHEETS
+fetch(URL,{method:'POST',mode:'no-cors',body:new FormData(f)}).then(()=>{
+btn.disabled=false;btn.innerText="HANTAR PENYERTAAN"; blI(); 
+localStorage.removeItem('qbDraft'); 
+if(kb.value=='Online Transfer' || kb.value=='Tunai'){
+let wT = kb.value=='Online Transfer' ? `<button onclick="window.open('https://wa.me/${TEL}?text=${encodeURIComponent('Salam. Saya *'+$('nm').value+'* mendaftar Qurban. RM'+jb.value+'. Ini invois/resit saya.')}')" style="width:100%;padding:14px;margin-bottom:10px;background:#25D366;color:#fff;border:none;border-radius:6px;font-weight:bold;font-size:16px;cursor:pointer">📱 HANTAR INVOIS WHATSAPP</button>` : '';
+sw.fire({icon:'success',title:'BERJAYA DIREKOD',html:`<p style="margin-bottom:20px;color:#fff">Sila cetak invois untuk rujukan anda.</p><button onclick="window.print()" style="width:100%;padding:14px;margin-bottom:10px;background:var(--ng);color:var(--db);border:none;border-radius:6px;font-weight:bold;font-size:16px;cursor:pointer">🖨️ CETAK / SIMPAN INVOIS (PDF)</button>${wT}`,showConfirmButton:true,confirmButtonText:'SELESAI & TUTUP',confirmButtonColor:'#333'}).then(()=>{f.reset();bi.style.display=bw.style.display='none';kr();ns(-3); location.reload();})}
+else if(kb.value=='ToyyibPay'){sw.fire({icon:'success',title:'BERJAYA',showConfirmButton:false,timer:2000}).then(()=>{window.location.href="https://toyyibpay.com/Bayaran-Qurban-2026"})}
+}).catch(()=>{btn.disabled=false;btn.innerText="HANTAR PENYERTAAN";sw.fire('RALAT','GAGAL HANTAR','error')})};kr();
+</script></body></html>
